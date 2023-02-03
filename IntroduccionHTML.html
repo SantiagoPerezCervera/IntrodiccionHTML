@@ -1,0 +1,121 @@
+<!-- Este es un comentario -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- etiqueta codificacion de la pagina como por ejemplo la ñ para que lo entienda  -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- compatibilidad con los navegadores obsoletos -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- la escala de la vista de mi pagina -->
+    <title>Document</title>
+</head>
+<body>
+    <!-- etiquetas de cabecera hasta 6h-->
+    <h1>Este es una etiqueta</h1>
+    <h2>Esta es una etiqueta</h2>
+    <h3>Esta es una etiqueta</h3>
+    <h4>Esta es una etiqueta</h4>
+    <h5>Esta es una etiqueta</h5>
+    <h6>Esta es una etiqueta</h6>
+
+    <!-- etiquetas de parrafo -->
+    <p style="color:aqua"><!-- em sirve para texto en cursivas -->
+        <!-- del para tachar el texto -->
+       <del><em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, alias iusto soluta atque odit neque eligendi reiciendis inventore autem nemo perferendis recusandae incidunt quis beatae nesciunt quae consequuntur asperiores rem </em> </del>
+    </p>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <!-- la etiqueta br da saltos de linea y la etiqueta hr pone una linea -->
+    <p><!-- letra u sirve para subrayar y strong para textos en negritas largos -->
+       <u>Segundo parrafo </u> 
+    </p>
+    <br><br><br><br><br><br><br><br>
+    <p> <!-- letra b para letras en negritas -->
+        <!-- blockquote sirve para el espaciado -->
+       <blockquote><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem soluta cupiditate consectetur incidunt totam. Fugit non quam, harum eos, quidem quae aliquam provident ipsum necessitatibus eligendi quisquam dolores a nisi!</b> </blockquote> 
+    </p>
+    <!-- 
+        Los atributos de las etiquetas son una serie de elementos que pueden agregar a una etiqueta en si para dotarlas de mas caracteristicas.( no todas las etiquetas tienes atributos).Estos atributos nos permiten agregar elementos como estilos, identificadores, eventos, etc.
+
+        -Class: Marcan un conjunto de elementos.
+        -ID: Marcan un elemento en especifico.
+        -Name: Marca el nombre de la etiqueta.
+
+        Etiqueta de imagan (img) 
+
+        La etiqueta img nos permite agregar una imagen en un documento web. Los formatos mas utilizados son: jpeg, png, gif, webp.
+
+        Algunos de los atributos de la etiqueta img son:
+
+        - src (source): definir la ubicacion del archivo (interna o externa)
+        - width: definir el ancho de la imagen
+        - height define el alto de la imagen
+        - alt: define la descripcion de la imagen (para temas de SEO y accesibilidad)
+
+    -->
+<img src="https://pbs.twimg.com/media/FAKHc1nVgAMoYn0.jpg" width="30%" >
+<br>
+<img src="Assets/image/FAKHc1nVgAMoYn0.jpg" width="20%" alt="fotodeperrito">
+<!-- Etiquetas de enlace <a>
+
+
+    Permiten la navegacion por medio de hipervinculos (links) que realizan la conexion y referencias otros archivos o paginas web, ya sea dentro de la misma aplicacion o de forma externa.
+
+    atributos de la etiqueta
+
+    - href: sirve para definer la ubicacion del elemento a donde nos vamos a enlazar
+
+    - target: definir como se abre ese elemento
+        - misma ventana
+        - ventana adicional
+
+-->
+<br>
+<a href="https://www.google.com" target="_blank" title="este ejemplo nos redirreciona a google">este texto me lleva a google</a>
+<br>
+<!-- referencia a sitio local -->
+<a href="Assets/image/FAKHc1nVgAMoYn0.jpg" >aqui abres al perrito playero</a>
+<br>
+<a href="Assets/image/FAKHc1nVgAMoYn0.jpg" download="">aqui descarga el perrito playero</a>
+<!-- 
+    src(source): incrustar un recurso(pegamos en el documento)
+    href (referencia): existe un enlace que nos comunica a ese elemento, para que no necesariamente incrusta el elemento.
+ -->
+
+ <h3>listas ordenadas de taquitos</h3>
+ <!-- Etiquetas para listas ordenadas y desordenadas 
+
+
+Sirven para crear listas ordenadas (numeros, letras, numeros romanos) y listas desordenadas (no siguen un orden y se usan bullets o figuritas para ordenar los elementos.)
+
+
+-->
+
+ <ol type="I"> <!-- lista ordenada (order list) -->
+    <li><!-- lista de algo (lista item) -->
+        Taquitos al pastor
+    </li>
+    <li>
+        taquito de adobada
+    </li>
+    <li>
+        taquito de carnitas
+    </li>
+    <li>
+        taquito de cochinita
+    </li>
+    <h2>lista desordenada de pendientes</h2>
+    <ul>
+        <li>dar de comer a los gatos</li>
+        <li>hacer el desayuno</li>
+        <li>entrar a la sesion</li>
+        <ol>otra lista
+            <li>ir a buscar a la pareja</li>
+            <li>ir a comprar la cena</li>
+        </ol>
+    </ul>
+ </ol>
+</body>
+</html>
